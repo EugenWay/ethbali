@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&family=Syne:wght@400;500;600&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+section[id] {
+  scroll-margin-top: 96px;
+}
+
+.font-syne {
+  font-family: 'Syne', sans-serif;
+}
+
+.font-space {
+  font-family: 'Space Mono', monospace;
+}
+
+@keyframes marqueeScroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.ticker-track {
+  animation: marqueeScroll 28s linear infinite;
+  display: flex;
+  width: max-content;
+  will-change: transform;
+}
+
+.ticker-group {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding-right: 2rem;
+  flex-shrink: 0;
+}
+
+@keyframes ticketSweep {
+  0% { transform: translateX(-120%) rotate(8deg); opacity: 0; }
+  15% { opacity: 0.35; }
+  100% { transform: translateX(120%) rotate(8deg); opacity: 0; }
+}
+
+.animate-ticket-sweep::after {
+  content: "";
+  position: absolute;
+  inset: -40% -20%;
+  background: linear-gradient(90deg, transparent, rgba(253, 224, 71, 0.55), transparent);
+  transform: translateX(-120%) rotate(8deg);
+  animation: ticketSweep 4.5s linear infinite;
+  pointer-events: none;
+}
+
+@keyframes floaty {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+.animate-floaty {
+  animation: floaty 4.5s ease-in-out infinite;
+}
+
+.schedule-toggle:checked + div > .schedule-content {
+  display: block;
+}
+
+.schedule-toggle:checked + div > .schedule-header > .toggle-icon {
+  transform: rotate(180deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .ticker-track,
+  .animate-floaty {
+    animation: none !important;
+  }
+
+  .animate-ticket-sweep::after {
+    animation: none !important;
+    opacity: 0;
+  }
+}

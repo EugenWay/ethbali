@@ -1,0 +1,29 @@
+{
+  "short_name": "ETH Bali 2026",
+  "name": "ETH Bali 2026 — Ethereum Builders Sunset Event",
+  "description": "Ethereum-native conference and sunset party in Bali on August 19, 2026.",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#facc15",
+  "background_color": "#0f172a"
+}
