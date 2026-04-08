@@ -22,9 +22,12 @@ jobs:
           VITE_WALLETCONNECT_PROJECT_ID: ${{ secrets.VITE_WALLETCONNECT_PROJECT_ID }}
 
       - name: deploy to server
+        env:
+          SSH_KEY: ${{ secrets.SERVER_SSH_KEY }}
+          HOST: ${{ secrets.SERVER_HOST }}
         run: |
           mkdir -p ~/.ssh
-          echo "${{ secrets.SERVER_SSH_KEY }}" > ~/.ssh/deploy_key
+          echo "$SSH_KEY" > ~/.ssh/deploy_key
           chmod 600 ~/.ssh/deploy_key
-          ssh-keyscan -H ${{ secrets.SERVER_HOST }} >> ~/.ssh/known_hosts
-          rsync -avz --delete -e "ssh -i ~/.ssh/deploy_key" dist/ root@${{ secrets.SERVER_HOST }}:/var/www/ethbali/
+          echo "StrictHostKeyChecking no" >> ~/.ssh/config
+          rsync -avz --delete -e "ssh -i ~/.ssh/deploy_key" dist/ root@$HOST:/var/www/ethbali/
