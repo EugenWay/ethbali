@@ -6,6 +6,10 @@ function TicketsSection() {
           <h2 className="font-syne font-semibold text-5xl lg:text-7xl tracking-tighter text-slate-900 uppercase leading-none">
             Tickets
           </h2>
+          <div className="mt-6 inline-flex items-center gap-3 bg-slate-900 text-yellow-300 font-syne font-medium uppercase tracking-tight px-6 py-3 rounded-full border-2 border-slate-900 text-sm">
+            <span className="w-2 h-2 rounded-full bg-yellow-300 animate-pulse" />
+            Sales open soon — prices locked in now
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -27,7 +31,7 @@ function TicketsSection() {
                 </div>
                 <div className="text-right">
                   <p className="text-xs text-blue-100 uppercase tracking-tight">Status</p>
-                  <p className="font-syne font-medium uppercase tracking-tight">Available now</p>
+                  <p className="font-syne font-medium uppercase tracking-tight text-yellow-300">Coming Soon</p>
                 </div>
               </div>
               <ul className="mt-6 space-y-3 text-sm text-blue-100 border-t-2 border-white/20 pt-6">
@@ -40,8 +44,8 @@ function TicketsSection() {
                   Conference + sunset party access
                 </li>
               </ul>
-              <button className="mt-8 w-full inline-flex items-center justify-center gap-2 px-6 py-3 bg-yellow-300 border-2 border-slate-900 rounded-full font-syne font-medium text-sm uppercase tracking-tight text-slate-900 hover:bg-slate-900 hover:text-yellow-300 transition-colors">
-                Buy Now
+              <button disabled className="mt-8 w-full inline-flex items-center justify-center gap-2 px-6 py-3 bg-white/20 border-2 border-white/30 rounded-full font-syne font-medium text-sm uppercase tracking-tight text-white/50 cursor-not-allowed">
+                Coming Soon
               </button>
             </div>
           </div>
