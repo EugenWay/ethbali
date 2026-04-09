@@ -41,7 +41,7 @@ function ContactSection() {
 
           {/* Speech bubble */}
           <div className="relative mb-4">
-            <div className="bg-white border-2 border-slate-900 rounded-2xl px-6 py-4 shadow-[4px_4px_0px_0px_rgba(15,23,42,1)] min-w-[260px]">
+            <div className="bg-white border-2 border-slate-900 rounded-2xl px-6 py-4 shadow-[4px_4px_0px_0px_rgba(15,23,42,1)] w-[320px]">
               <p
                 className="font-syne font-semibold text-slate-900 text-lg uppercase tracking-tight transition-opacity duration-300"
                 style={{ opacity: visible ? 1 : 0 }}
