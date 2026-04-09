@@ -63,11 +63,6 @@ function ContactSection() {
               borderRight: '9px solid transparent',
               borderTop: '11px solid #0f172a'
             }} />
-            <div className="absolute -bottom-[8px] left-1/2 -translate-x-1/2 w-0 h-0" style={{
-              borderLeft: '7px solid transparent',
-              borderRight: '7px solid transparent',
-              borderTop: '9px solid white'
-            }} />
           </div>
 
           {/* Cat */}
