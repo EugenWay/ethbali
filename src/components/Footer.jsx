@@ -22,8 +22,10 @@ function Footer() {
             𝕏 @ethbali2026
           </a>
         </div>
-        <div className="text-xs text-blue-300 font-mono">
-          &copy; 2026 ETH Bali
+        <div className="text-xs text-blue-300 font-mono flex flex-col sm:flex-row items-center gap-2">
+          <span>&copy; 2026 ETH Bali</span>
+          <span className="hidden sm:block">·</span>
+          <span>Made by <a href="https://github.com/EugenWay" target="_blank" rel="noopener noreferrer" className="text-white hover:text-yellow-300 transition-colors">@EugenWay</a></span>
         </div>
       </div>
     </footer>
