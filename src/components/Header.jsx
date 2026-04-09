@@ -31,7 +31,9 @@ function Header({ showSchedule = true, showSponsors = true }) {
           <div className="hidden md:flex items-center">
             <div className="flex items-center gap-3">
               <a
-                href="#contact"
+                href="https://calendly.com/ethbaliteam/eth-bali-sponsors-discovery-call?month=2026-04"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-5 py-2.5 border-2 border-slate-900 rounded-full font-syne font-medium text-sm uppercase tracking-tight text-slate-900 bg-sky-200 hover:bg-slate-900 hover:text-sky-200 transition-all duration-300"
               >
                 Book a Call

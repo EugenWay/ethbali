@@ -126,16 +126,10 @@ function TicketsSection() {
           </div>
         </div>
 
-        <div className="mt-10 flex flex-col md:flex-row md:items-center justify-between gap-4 border-t-2 border-slate-900/30 pt-8">
+        <div className="mt-10 border-t-2 border-slate-900/30 pt-8">
           <p className="text-sm text-slate-800 max-w-3xl">
-            Wave availability changes by time. If unavailable now, enable reminders and try later.
+            Wave availability changes by time. If unavailable now, check back later.
           </p>
-          <button
-            type="button"
-            className="inline-flex items-center gap-2 text-slate-900 hover:text-blue-600 font-syne uppercase tracking-tight text-sm transition-colors border-b border-slate-900 hover:border-blue-600 pb-1 self-start md:self-auto"
-          >
-            Ticket Rules <span aria-hidden="true">→</span>
-          </button>
         </div>
       </div>
     </section>
