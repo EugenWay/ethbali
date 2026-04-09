@@ -6,6 +6,22 @@ function Footer() {
           <span className="text-yellow-300">◉</span>
           <span className="font-syne font-semibold text-xl tracking-tighter uppercase text-white">ETH.BALI</span>
         </div>
+        <div className="flex items-center gap-6">
+          <a
+            href="mailto:ethbaliteam@gmail.com"
+            className="text-blue-200 hover:text-white transition-colors text-sm font-mono"
+          >
+            ethbaliteam@gmail.com
+          </a>
+          <a
+            href="https://x.com/ethbali2026"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-200 hover:text-white transition-colors text-sm font-mono"
+          >
+            𝕏 @ethbali2026
+          </a>
+        </div>
         <div className="text-xs text-blue-300 font-mono">
           &copy; 2026 ETH Bali
         </div>

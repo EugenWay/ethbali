@@ -47,46 +47,46 @@ function VenueSection() {
             <div className="relative bg-slate-900 border-2 border-slate-900 rounded-3xl p-6 lg:p-8 overflow-hidden">
               <div className="flex items-center justify-between gap-4 mb-6">
                 <h3 className="font-syne font-semibold text-2xl tracking-tighter uppercase text-white">Gallery</h3>
-                <span className="font-mono text-xs text-slate-400">preview</span>
+                <span className="font-mono text-xs text-slate-400">Bintang Resort Bali</span>
               </div>
 
               <div className="grid grid-cols-6 gap-3">
-                <div className="col-span-6 sm:col-span-4 h-44 sm:h-56 rounded-2xl border border-slate-700 bg-gradient-to-br from-blue-600/40 via-slate-900 to-rose-500/30 relative overflow-hidden">
+                <div className="col-span-6 sm:col-span-4 h-44 sm:h-56 rounded-2xl border border-slate-700 overflow-hidden relative">
+                  <img src="/static/media/venue-pool.jpg" alt="Pool" className="w-full h-full object-cover" />
                   <div className="absolute bottom-4 left-4">
-                    <p className="font-syne font-medium uppercase tracking-tight text-white text-sm">Main Hall</p>
-                    <p className="text-xs text-slate-300">Talks + demos</p>
+                    <p className="font-syne font-medium uppercase tracking-tight text-white text-sm drop-shadow">Pool</p>
+                    <p className="text-xs text-slate-200 drop-shadow">Beachfront</p>
                   </div>
                 </div>
-                <div className="col-span-6 sm:col-span-2 h-44 sm:h-56 rounded-2xl border border-slate-700 bg-gradient-to-br from-emerald-400/35 via-slate-900 to-yellow-300/25 relative overflow-hidden">
+                <div className="col-span-6 sm:col-span-2 h-44 sm:h-56 rounded-2xl border border-slate-700 overflow-hidden relative">
+                  <img src="/static/media/venue-lounge.jpg" alt="Lounge" className="w-full h-full object-cover" />
                   <div className="absolute bottom-4 left-4">
-                    <p className="font-syne font-medium uppercase tracking-tight text-white text-sm">Workshop</p>
-                    <p className="text-xs text-slate-300">Hands-on</p>
+                    <p className="font-syne font-medium uppercase tracking-tight text-white text-sm drop-shadow">Lounge</p>
                   </div>
                 </div>
-                <div className="col-span-6 sm:col-span-2 h-32 rounded-2xl border border-slate-700 bg-gradient-to-br from-rose-500/30 via-slate-900 to-blue-600/30 relative overflow-hidden">
+                <div className="col-span-6 sm:col-span-2 h-32 rounded-2xl border border-slate-700 overflow-hidden relative">
+                  <img src="/static/media/venue-beach.jpg" alt="Beach" className="w-full h-full object-cover" />
                   <div className="absolute bottom-3 left-4">
-                    <p className="font-syne font-medium uppercase tracking-tight text-white text-sm">Sunset Deck</p>
+                    <p className="font-syne font-medium uppercase tracking-tight text-white text-sm drop-shadow">Beach</p>
                   </div>
                 </div>
-                <div className="col-span-6 sm:col-span-2 h-32 rounded-2xl border border-slate-700 bg-gradient-to-br from-yellow-300/20 via-slate-900 to-emerald-400/25 relative overflow-hidden">
+                <div className="col-span-6 sm:col-span-4 h-32 rounded-2xl border border-slate-700 overflow-hidden relative">
+                  <img src="/static/media/venue-stage.jpg" alt="Exhibition Area" className="w-full h-full object-cover" />
                   <div className="absolute bottom-3 left-4">
-                    <p className="font-syne font-medium uppercase tracking-tight text-white text-sm">Poolside</p>
-                  </div>
-                </div>
-                <div className="col-span-6 sm:col-span-2 h-32 rounded-2xl border border-slate-700 bg-gradient-to-br from-blue-600/25 via-slate-900 to-yellow-300/15 relative overflow-hidden">
-                  <div className="absolute bottom-3 left-4">
-                    <p className="font-syne font-medium uppercase tracking-tight text-white text-sm">Afterparty</p>
+                    <p className="font-syne font-medium uppercase tracking-tight text-white text-sm drop-shadow">Exhibition Area</p>
                   </div>
                 </div>
               </div>
 
               <div className="mt-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
-                <p className="text-xs text-slate-400 font-mono">Venue photos are placeholders for now.</p>
+                <p className="text-xs text-slate-400 font-mono">Bintang Resort Bali</p>
                 <a
-                  href="#tickets"
+                  href="https://bintang-bali-hotel.com/gallery/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-yellow-300 hover:text-white font-syne uppercase tracking-tight text-sm transition-colors border-b border-yellow-300 hover:border-white pb-1"
                 >
-                  Get Access <span aria-hidden="true">→</span>
+                  Full Gallery <span aria-hidden="true">→</span>
                 </a>
               </div>
             </div>
