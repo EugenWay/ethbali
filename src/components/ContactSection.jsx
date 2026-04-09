@@ -52,7 +52,7 @@ function ContactSection() {
                 href="https://calendly.com/ethbaliteam/eth-bali-sponsors-discovery-call?month=2026-04"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-3 inline-flex items-center justify-center w-full gap-2 bg-slate-900 text-yellow-300 font-syne font-semibold uppercase tracking-tight px-5 py-2.5 rounded-full border-2 border-slate-900 hover:bg-blue-600 transition-colors text-sm"
+                className="mt-3 inline-flex items-center justify-center w-full gap-2 bg-slate-900 text-yellow-300 font-syne font-semibold uppercase tracking-tight px-5 py-2.5 rounded-full border-2 border-slate-900 hover:bg-yellow-300 hover:text-slate-900 transition-colors text-sm"
               >
                 Book a Call →
               </a>
