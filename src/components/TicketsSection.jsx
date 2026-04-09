@@ -37,11 +37,15 @@ function TicketsSection() {
               <ul className="mt-6 space-y-3 text-sm text-blue-100 border-t-2 border-white/20 pt-6">
                 <li className="flex items-center gap-3">
                   <span className="w-7 h-7 rounded-full border-2 border-slate-900 bg-yellow-300 text-slate-900 flex items-center justify-center text-xs font-bold">+</span>
-                  Entry + talks + workshops
+                  Entry + talks + merch drop
                 </li>
                 <li className="flex items-center gap-3">
                   <span className="w-7 h-7 rounded-full border-2 border-slate-900 bg-yellow-300 text-slate-900 flex items-center justify-center text-xs font-bold">*</span>
                   Conference + sunset party access
+                </li>
+                <li className="flex items-center gap-3">
+                  <span className="w-7 h-7 rounded-full border-2 border-slate-900 bg-yellow-300 text-slate-900 flex items-center justify-center text-xs font-bold">~</span>
+                  Food & drinks included
                 </li>
               </ul>
               <button disabled className="mt-8 w-full inline-flex items-center justify-center gap-2 px-6 py-3 bg-white/20 border-2 border-white/30 rounded-full font-syne font-medium text-sm uppercase tracking-tight text-white/50 cursor-not-allowed">
