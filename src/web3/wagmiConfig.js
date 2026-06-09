@@ -17,16 +17,16 @@ const connectors = [
           projectId,
           showQrModal: true,
           metadata: {
-            name: 'ETH.BALI',
-            description: 'ETH Bali Ticket Access',
-            url: 'https://eth.bali',
+            name: 'Open Waters',
+            description: 'Open Waters Ticket Access',
+            url: 'https://ethbali.cc',
             icons: ['/static/media/ethbali.png'],
           },
         }),
       ]
     : []),
   coinbaseWallet({
-    appName: 'ETH.BALI',
+    appName: 'Open Waters',
   }),
 ];
 

@@ -10,8 +10,8 @@ import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 
 function App() {
-  const showSchedule = false;
-  const showSponsors = false;
+  const showSchedule = true;
+  const showSponsors = true;
 
   return (
     <div className="font-space antialiased bg-slate-900 text-slate-900 selection:bg-rose-500 selection:text-white">

@@ -1,5 +1,5 @@
 function TickerBar() {
-  const tickerItems = ['Ethereum', 'Builders', 'Sunset Party', 'Beachfront', 'L2', 'ZK', 'DeFi'];
+  const tickerItems = ['Sun', 'Ocean', 'Fire', 'Infinity Pool', 'Balinese Dance', 'Arcana Hunt', 'DJ Sets', 'Sunset'];
 
   return (
     <div className="bg-yellow-300 border-b-2 border-slate-900 py-4 overflow-hidden whitespace-nowrap relative">

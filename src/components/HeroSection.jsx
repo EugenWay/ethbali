@@ -11,18 +11,18 @@ function HeroSection() {
       <div className="max-w-7xl mx-auto relative z-10 w-full">
         <div className="flex flex-col items-center text-center gap-6 max-w-4xl mx-auto">
           <h1 className="font-syne font-semibold text-6xl sm:text-7xl lg:text-8xl tracking-tighter text-white leading-[0.9] uppercase">
-            ETH Bali <br />
-            <span className="text-yellow-300">2026</span>
+            Open <br />
+            <span className="text-yellow-300">Waters</span>
           </h1>
 
           <div className="mt-2 max-w-2xl bg-white border-2 border-slate-900 rounded-3xl px-5 py-4 shadow-[6px_6px_0px_0px_rgba(15,23,42,1)]">
             <div className="inline-flex items-center gap-2 px-3 py-1 mb-3 rounded-full border-2 border-slate-900 bg-sky-200 font-syne text-xs uppercase tracking-tight text-slate-900">
               <span className="w-2 h-2 rounded-full bg-slate-900" />
-              Premium Party • Aug 19, 2026
+              The Ultimate Beach Party • Aug 19 • 17:00–21:00
             </div>
             <p className="text-base sm:text-lg text-slate-900">
-              Ethereum doesn&apos;t stop at mainnet. Join builders, founders and creators
-              one day before CoinFest Asia.
+              Sun, ocean, fire &amp; the people who move crypto — all in one place.
+              UMA Beach House, Melasti Beach, Bali. One night before Coinfest.
             </p>
             <div className="mt-4">
               <a
