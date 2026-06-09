@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const DECK_MAILTO =
   'mailto:ethbaliteam@gmail.com' +
@@ -17,7 +18,12 @@ function Header({ showSchedule = true, showSponsors = true }) {
       <nav className="fixed w-full z-50 bg-yellow-300 border-b-2 border-slate-900 transition-all duration-300">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
-            <div className="flex-shrink-0 flex items-center gap-3">
+            <Link
+              to="/"
+              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+              aria-label="Open Waters — home"
+              className="flex-shrink-0 flex items-center gap-3 cursor-pointer"
+            >
               <img
                 src="/static/media/ethbali.png"
                 alt="Open Waters"
@@ -31,7 +37,7 @@ function Header({ showSchedule = true, showSponsors = true }) {
                   by ETH Bali
                 </span>
               </span>
-            </div>
+            </Link>
 
             <div className="hidden md:flex space-x-8 items-center">
               <a href="#about" className="font-syne text-base font-medium uppercase tracking-tight hover:text-blue-600 transition-colors">About</a>
