@@ -1,10 +1,10 @@
 import { useState, useEffect, useRef } from 'react';
 
 const messages = [
-  'gm builders 👋',
-  'wagmi frens 🫡',
-  'ship it to Bali 🌴',
-  'move on → book a call',
+  'see you on the beach 🌊',
+  'sun, ocean & fire 🔥',
+  'the people who move crypto 🫡',
+  'sponsor it → book a call',
 ];
 
 function ContactSection() {
@@ -75,7 +75,7 @@ function ContactSection() {
 
           <img
             src="/static/media/cat-image.4c8353b9dba8be96d064.png"
-            alt="ETH Bali cat"
+            alt="Open Waters cat"
             className="h-56 w-auto object-contain drop-shadow-xl"
           />
         </div>
@@ -85,8 +85,8 @@ function ContactSection() {
             ✉ ethbaliteam@gmail.com
           </a>
           <span className="hidden sm:block text-slate-400">·</span>
-          <a href="https://x.com/ethbali2026" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-slate-900 transition-colors font-mono text-sm">
-            𝕏 @ethbali2026
+          <a href="https://x.com/ethbali2027" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-slate-900 transition-colors font-mono text-sm">
+            𝕏 @ethbali2027
           </a>
         </div>
       </div>

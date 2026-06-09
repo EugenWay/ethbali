@@ -1,51 +1,9 @@
-import { useState } from 'react';
-
-const sponsorsTier1 = [
-  { name: 'Ethereum', slug: 'ethereum' },
-  { name: 'Polygon', slug: 'polygon' },
-];
-
-const sponsorsTier2 = [
-  { name: 'Arbitrum', slug: 'arbitrum' },
-  { name: 'Optimism', slug: 'optimism' },
-  { name: 'Chainlink', slug: 'chainlink' },
-  { name: 'Aave', slug: 'aave' },
-  { name: 'Uniswap', slug: 'uniswap' },
-  { name: 'Alchemy', slug: 'alchemy' },
-];
-
-function SponsorCard({ sponsor, large = false }) {
-  const [hasImageError, setHasImageError] = useState(false);
-
-  return (
-    <div
-      className={`group cursor-pointer rounded-2xl border-2 border-slate-700 bg-slate-800/50 backdrop-blur-sm transition-all duration-300 hover:border-yellow-300 hover:bg-slate-800/80 ${
-        large ? 'h-40' : 'h-28'
-      }`}
-    >
-      <div className="h-full w-full flex flex-col items-center justify-center gap-3 px-4">
-        {!hasImageError ? (
-          <img
-            src={`https://cdn.simpleicons.org/${sponsor.slug}/FFFFFF`}
-            alt={sponsor.name}
-            className={`${large ? 'h-12' : 'h-9'} w-auto opacity-90 group-hover:opacity-100 transition-opacity`}
-            loading="lazy"
-            onError={() => setHasImageError(true)}
-          />
-        ) : (
-          <span
-            className={`${large ? 'text-2xl' : 'text-lg'} font-syne font-semibold tracking-tight uppercase text-white`}
-          >
-            {sponsor.name.slice(0, 3)}
-          </span>
-        )}
-        <span className="font-syne text-xs uppercase tracking-tight text-slate-300 group-hover:text-yellow-300 transition-colors">
-          {sponsor.name}
-        </span>
-      </div>
-    </div>
+const DECK_MAILTO =
+  'mailto:ethbaliteam@gmail.com' +
+  '?subject=' + encodeURIComponent('Open Waters — Sponsor Deck Request') +
+  '&body=' + encodeURIComponent(
+    "Hi Open Waters team,\n\nWe'd like to receive the sponsorship deck for Open Waters (Bali, 19 August).\n\nCompany:\nWebsite:\nName:\n\nThanks!"
   );
-}
 
 function SponsorsSection() {
   return (
@@ -55,34 +13,33 @@ function SponsorsSection() {
         style={{ backgroundImage: 'radial-gradient(#FDE047 1px, transparent 1px)', backgroundSize: '32px 32px' }}
       />
 
-      <div className="max-w-7xl mx-auto relative z-10">
-        <h2 className="font-syne font-semibold text-4xl lg:text-5xl tracking-tighter text-white uppercase text-center mb-4">
-          Backed By The Best
+      <div className="max-w-3xl mx-auto relative z-10 text-center">
+        <p className="font-syne font-medium text-sm uppercase tracking-tight text-yellow-300 mb-4">
+          The Long Game
+        </p>
+        <h2 className="font-syne font-semibold text-4xl lg:text-6xl tracking-tighter text-white uppercase leading-none mb-6">
+          Sponsor Open Waters.<br />Join ETHBali 2027 Early.
         </h2>
-        <p className="text-center text-slate-300 text-sm uppercase tracking-tight mb-14">
-          Placeholder Backers. Final Partner Logos Can Be Swapped In One Click.
+        <p className="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto mb-6">
+          Open Waters is more than a party — it is the first step toward ETHBali 2027.
+          By sponsoring the 2026 beach gathering, partners become early supporters of the
+          upcoming ETHBali conference and receive priority consideration for next year&apos;s
+          full conference.
+        </p>
+        <p className="font-syne font-medium text-white text-lg sm:text-xl tracking-tight max-w-2xl mx-auto mb-10 border-l-2 border-yellow-300 pl-4 text-left">
+          In 2026, we gather the right people on the beach. In 2027, we bring them to the stage.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-          {sponsorsTier1.map((sponsor) => (
-            <SponsorCard key={sponsor.slug} sponsor={sponsor} large />
-          ))}
-        </div>
+        <a
+          href={DECK_MAILTO}
+          className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-yellow-300 border-2 border-slate-900 rounded-full font-syne font-semibold text-base uppercase tracking-tight text-slate-900 shadow-[4px_4px_0px_0px_rgba(253,224,71,0.35)] hover:bg-white transition-colors"
+        >
+          Request Sponsor Deck <span aria-hidden="true">→</span>
+        </a>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
-          {sponsorsTier2.map((sponsor) => (
-            <SponsorCard key={sponsor.slug} sponsor={sponsor} />
-          ))}
-        </div>
-
-        <div className="mt-16 text-center">
-          <a
-            href="#contact"
-            className="inline-flex items-center justify-center gap-2 px-7 py-3 bg-yellow-300 border-2 border-slate-900 rounded-full font-syne font-semibold text-sm uppercase tracking-tight text-slate-900 hover:bg-white transition-colors"
-          >
-            Become a sponsor <span aria-hidden="true">→</span>
-          </a>
-        </div>
+        <p className="mt-6 text-xs text-slate-400 font-mono">
+          We&apos;ll send the full deck to your inbox.
+        </p>
       </div>
     </section>
   );
