@@ -1,8 +1,8 @@
 const DECK_MAILTO =
   'mailto:ethbaliteam@gmail.com' +
-  '?subject=' + encodeURIComponent('Open Waters — Sponsor Deck Request') +
+  '?subject=' + encodeURIComponent('ETH Bali 2027 — Sponsor Deck Request') +
   '&body=' + encodeURIComponent(
-    "Hi Open Waters team,\n\nWe'd like to receive the sponsorship deck for Open Waters (Bali, 19 August).\n\nCompany:\nWebsite:\nName:\n\nThanks!"
+    "Hi ETH Bali team,\n\nWe'd like to receive the sponsorship deck for ETH Bali 2027 (Bali, August 2027).\n\nCompany:\nWebsite:\nName:\n\nThanks!"
   );
 
 function SponsorsSection() {
@@ -18,16 +18,15 @@ function SponsorsSection() {
           The Long Game
         </p>
         <h2 className="font-syne font-semibold text-4xl lg:text-6xl tracking-tighter text-white uppercase leading-none mb-6">
-          Sponsor Open Waters.<br />Join ETHBali 2027 Early.
+          Sponsor the night.<br />Join ETHBali 2027 Early.
         </h2>
         <p className="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto mb-6">
-          Open Waters is more than a party — it is the first step toward ETHBali 2027.
-          By sponsoring the 2026 beach gathering, partners become early supporters of the
-          upcoming ETHBali conference and receive priority consideration for next year&apos;s
-          full conference.
+          This night is more than a party — it is the launch of ETHBali 2027.
+          By sponsoring the beach gathering, partners become early supporters of the
+          full ETHBali conference and receive priority consideration for the main event.
         </p>
         <p className="font-syne font-medium text-white text-lg sm:text-xl tracking-tight max-w-2xl mx-auto mb-10 border-l-2 border-yellow-300 pl-4 text-left">
-          In 2026, we gather the right people on the beach. In 2027, we bring them to the stage.
+          First we gather the right people on the beach. Then we bring them to the stage.
         </p>
 
         <a

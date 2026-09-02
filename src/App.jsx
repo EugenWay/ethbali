@@ -4,7 +4,6 @@ import TickerBar from './components/TickerBar';
 import AboutSection from './components/AboutSection';
 import ScheduleSection from './components/ScheduleSection';
 import SponsorsSection from './components/SponsorsSection';
-import VenueSection from './components/VenueSection';
 import TicketsSection from './components/TicketsSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
@@ -21,7 +20,6 @@ function App() {
       <AboutSection />
       {showSchedule && <ScheduleSection />}
       {showSponsors && <SponsorsSection />}
-      <VenueSection />
       <TicketsSection />
       <ContactSection />
       <Footer />

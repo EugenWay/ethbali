@@ -79,7 +79,7 @@ function TicketsSection() {
               <div className="mt-6 flex items-end justify-between gap-6">
                 <div>
                   <p className="font-syne font-semibold text-4xl tracking-tighter">$20</p>
-                  <p className="text-xs text-slate-800 mt-1">The full Open Waters experience</p>
+                  <p className="text-xs text-slate-800 mt-1">The full ETH Bali 2027 experience</p>
                 </div>
                 <div className="text-right">
                   <p className="text-xs text-slate-800 uppercase tracking-tight">Status</p>

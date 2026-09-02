@@ -17,8 +17,8 @@ const connectors = [
           projectId,
           showQrModal: true,
           metadata: {
-            name: 'Open Waters',
-            description: 'Open Waters Ticket Access',
+            name: 'ETH Bali 2027',
+            description: 'ETH Bali 2027 Ticket Access',
             url: 'https://ethbali.cc',
             icons: ['/static/media/ethbali.png'],
           },
@@ -26,7 +26,7 @@ const connectors = [
       ]
     : []),
   coinbaseWallet({
-    appName: 'Open Waters',
+    appName: 'ETH Bali 2027',
   }),
 ];
 

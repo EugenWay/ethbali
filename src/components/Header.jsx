@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 const DECK_MAILTO =
   'mailto:ethbaliteam@gmail.com' +
-  '?subject=' + encodeURIComponent('Open Waters — Sponsor Deck Request') +
+  '?subject=' + encodeURIComponent('ETH Bali 2027 — Sponsor Deck Request') +
   '&body=' + encodeURIComponent(
-    "Hi Open Waters team,\n\nWe'd like to receive the sponsorship deck for Open Waters (Bali, 19 August).\n\nCompany:\nWebsite:\nName:\n\nThanks!"
+    "Hi ETH Bali team,\n\nWe'd like to receive the sponsorship deck for ETH Bali 2027 (Bali, August 2027).\n\nCompany:\nWebsite:\nName:\n\nThanks!"
   );
 
 function Header({ showSchedule = true, showSponsors = true }) {
@@ -21,20 +21,20 @@ function Header({ showSchedule = true, showSponsors = true }) {
             <Link
               to="/"
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-              aria-label="Open Waters — home"
+              aria-label="ETH Bali 2027 — home"
               className="flex-shrink-0 flex items-center gap-3 cursor-pointer"
             >
               <img
                 src="/static/media/ethbali.png"
-                alt="Open Waters"
+                alt="ETH Bali 2027"
                 className="h-12 w-auto object-contain"
               />
               <span className="flex flex-col leading-none">
                 <span className="font-syne font-semibold text-[1.4rem] sm:text-[1.7rem] tracking-tighter uppercase text-slate-900">
-                  Open Waters
+                  ETH Bali
                 </span>
                 <span className="font-syne font-medium text-[0.62rem] sm:text-xs tracking-tight uppercase text-slate-700">
-                  by ETH Bali
+                  2027 · Bali
                 </span>
               </span>
             </Link>
@@ -47,14 +47,13 @@ function Header({ showSchedule = true, showSponsors = true }) {
               {showSponsors && (
                 <a href="#sponsors" className="font-syne text-base font-medium uppercase tracking-tight hover:text-blue-600 transition-colors">Sponsors</a>
               )}
-              <a href="#venue" className="font-syne text-base font-medium uppercase tracking-tight hover:text-blue-600 transition-colors">Venue</a>
               <a href="#tickets" className="font-syne text-base font-medium uppercase tracking-tight hover:text-blue-600 transition-colors">Buy</a>
             </div>
 
             <div className="hidden md:flex items-center">
               <div className="flex items-center gap-3">
                 <a
-                  href="https://calendly.com/ethbaliteam/eth-bali-sponsors-discovery-call?month=2026-04"
+                  href="https://calendly.com/ethbaliteam/eth-bali-sponsors-discovery-call"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-5 py-2.5 border-2 border-slate-900 rounded-full font-syne font-medium text-sm uppercase tracking-tight text-slate-900 bg-sky-200 hover:bg-slate-900 hover:text-sky-200 transition-all duration-300"
@@ -96,11 +95,10 @@ function Header({ showSchedule = true, showSponsors = true }) {
             {showSponsors && (
               <a href="#sponsors" onClick={close} className="font-syne font-semibold text-2xl uppercase tracking-tight text-slate-900 py-3 border-b border-slate-900/20 hover:text-blue-600 transition-colors">Sponsors</a>
             )}
-            <a href="#venue" onClick={close} className="font-syne font-semibold text-2xl uppercase tracking-tight text-slate-900 py-3 border-b border-slate-900/20 hover:text-blue-600 transition-colors">Venue</a>
             <a href="#tickets" onClick={close} className="font-syne font-semibold text-2xl uppercase tracking-tight text-slate-900 py-3 border-b border-slate-900/20 hover:text-blue-600 transition-colors">Tickets</a>
             <a href="#contact" onClick={close} className="font-syne font-semibold text-2xl uppercase tracking-tight text-slate-900 py-3 border-b border-slate-900/20 hover:text-blue-600 transition-colors">Contact</a>
             <a
-              href="https://calendly.com/ethbaliteam/eth-bali-sponsors-discovery-call?month=2026-04"
+              href="https://calendly.com/ethbaliteam/eth-bali-sponsors-discovery-call"
               target="_blank"
               rel="noopener noreferrer"
               onClick={close}

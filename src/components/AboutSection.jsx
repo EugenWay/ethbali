@@ -9,7 +9,7 @@ function AboutSection() {
               Night
             </h2>
             <p className="text-base sm:text-lg text-slate-800 mb-6">
-              Before Coinfest kicks off, we&apos;re throwing the best party Bali has ever seen — one of the most beautiful beaches in the world, a stunning cliffside infinity pool, fire shows and Balinese dancers.
+              Before Coinfest kicks off, we&apos;re throwing the best party Bali has ever seen — sunset by the ocean, fire shows and Balinese dancers.
             </p>
             <p className="text-base sm:text-lg text-slate-800 mb-6">
               150+ people from the crypto world, all in one place, finally getting to know each other properly. Zero formality. All fun.
@@ -37,15 +37,15 @@ function AboutSection() {
               <p className="text-sm text-slate-400 mb-8 font-mono">Bali at its most electric.</p>
               <div className="space-y-4">
                 <div className="bg-slate-800 border border-slate-700 p-4 rounded-xl">
-                  <h4 className="font-syne font-medium tracking-tight uppercase text-yellow-300 text-lg">🌊 Melasti Beach</h4>
+                  <h4 className="font-syne font-medium tracking-tight uppercase text-yellow-300 text-lg">🌊 Ocean &amp; Sunset</h4>
                   <p className="text-sm text-slate-300 mt-2">
-                    One of Bali&apos;s most breathtaking beaches. White sand, turquoise water, golden hour that hits different.
+                    White sand, turquoise water, golden hour that hits different.
                   </p>
                 </div>
                 <div className="bg-slate-800 border border-slate-700 p-4 rounded-xl">
-                  <h4 className="font-syne font-medium tracking-tight uppercase text-sky-300 text-lg">🏊 Infinity Pool</h4>
+                  <h4 className="font-syne font-medium tracking-tight uppercase text-sky-300 text-lg">🏊 Poolside</h4>
                   <p className="text-sm text-slate-300 mt-2">
-                    Swim, sip, and soak it all in. The cliffside pool is the social heart of the night.
+                    Swim, sip, and soak it all in. The pool is the social heart of the night.
                   </p>
                 </div>
                 <div className="bg-slate-800 border border-slate-700 p-4 rounded-xl">

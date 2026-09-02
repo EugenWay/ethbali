@@ -38,7 +38,7 @@ function NotFound() {
         </a>
       </div>
 
-      <p className="absolute bottom-6 text-blue-400 font-mono text-xs">© 2026 Open Waters · ETH Bali</p>
+      <p className="absolute bottom-6 text-blue-400 font-mono text-xs">© 2027 ETH Bali</p>
     </div>
   );
 }

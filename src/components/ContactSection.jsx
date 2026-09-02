@@ -58,7 +58,7 @@ function ContactSection() {
                 {messages[idx]}
               </p>
               <a
-                href="https://calendly.com/ethbaliteam/eth-bali-sponsors-discovery-call?month=2026-04"
+                href="https://calendly.com/ethbaliteam/eth-bali-sponsors-discovery-call"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-3 inline-flex items-center justify-center w-full gap-2 bg-slate-900 text-yellow-300 font-syne font-semibold uppercase tracking-tight px-5 py-2.5 rounded-full border-2 border-slate-900 hover:bg-yellow-300 hover:text-slate-900 transition-colors text-sm"
@@ -75,7 +75,7 @@ function ContactSection() {
 
           <img
             src="/static/media/cat-image.4c8353b9dba8be96d064.png"
-            alt="Open Waters cat"
+            alt="ETH Bali cat"
             className="h-56 w-auto object-contain drop-shadow-xl"
           />
         </div>
